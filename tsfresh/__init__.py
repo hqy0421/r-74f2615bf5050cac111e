@@ -8,7 +8,6 @@ At the top level we export the three most important submodules of tsfresh, which
     * :mod:`~tsfresh.extract_relevant_features`
 """
 
-
 from importlib.metadata import version
 
 try:
@@ -28,4 +27,7 @@ from tsfresh.convenience.relevant_extraction import (  # noqa: E402
     extract_relevant_features,
 )
 from tsfresh.feature_extraction import extract_features  # noqa: E402
+from tsfresh.feature_extraction.alignment import (  # noqa: E402
+    extract_features_dual_source,
+)
 from tsfresh.feature_selection import select_features  # noqa: E402

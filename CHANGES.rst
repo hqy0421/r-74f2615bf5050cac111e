@@ -4,6 +4,17 @@ Changelog
 
 tsfresh uses `Semantic Versioning <http://semver.org/>`_
 
+Unreleased
+==========
+- Features:
+    - Add a dual-source alignment feature pipeline
+      ``tsfresh.extract_features_dual_source``: observations of two sources
+      are matched one-to-one and non-crossing per entity, channel and time
+      tolerance (maximizing the number of pairs, then minimizing the total
+      absolute time difference, using only the observation times), features
+      are extracted natively from the resulting difference series and the
+      alignment, unmatched and feature reports can be saved to disk.
+
 Version 0.21.2
 ==============
 - Bugfixes/Typos/Documentation:

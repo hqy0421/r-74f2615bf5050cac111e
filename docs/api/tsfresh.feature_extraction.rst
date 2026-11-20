@@ -4,6 +4,14 @@ tsfresh.feature\_extraction package
 Submodules
 ----------
 
+tsfresh.feature\_extraction.alignment module
+--------------------------------------------
+
+.. automodule:: tsfresh.feature_extraction.alignment
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 tsfresh.feature\_extraction.data module
 ---------------------------------------
 
